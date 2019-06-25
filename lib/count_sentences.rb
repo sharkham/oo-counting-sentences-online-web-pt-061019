@@ -16,12 +16,12 @@ class String
 
   # def count_sentences
   #   split_sentences = self.split(/[.?!]\s/)
-  #   split_sentences.count 
+  #   split_sentences.count
   # end
 
-  def count_sentences 
+  def count_sentences
     split_sentences = self.split(/[.?!]/)
     binding.pry
-  end 
+  end
 
 end
